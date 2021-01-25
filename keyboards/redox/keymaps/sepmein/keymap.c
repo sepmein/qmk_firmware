@@ -20,8 +20,8 @@ enum custom_keycodes {
 #define SYM_L   MO(_SYMB)
 
 #define KC_ALAS LALT_T(KC_PAST)
-#define KC_CCM LCTL_T(KC_COMM)
-#define KC_GDOT LGUI_T(KC_DOT)
+#define KC_CCM LCTL_T(KC_DOT)
+#define KC_GDOT LGUI_T(KC_COMM)
 
 #define KC_NAGR LT(_NAV, KC_GRV)
 #define KC_NAMI LT(_NAV, KC_MINS)
