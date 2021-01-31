@@ -129,6 +129,6 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 }
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-	uprintf("ErgoKB:%u,%u,%u,%u,%u\n", record->event.key.col, record->event.key.row, record->event.pressed, current_layer, keycode);
+	uprintf("%u,%u,%u,%u,%u\n", record->event.key.col, record->event.key.row, record->event.pressed, current_layer, keycode);
 	return true;
 }
