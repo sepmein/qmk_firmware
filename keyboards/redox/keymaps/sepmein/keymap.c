@@ -109,6 +109,9 @@ void matrix_scan_user(void) {
       tap_code(KC_BTN1);
       unregister_code(KC_LSHIFT);
       unregister_code(KC_LGUI);
+      register_code(KC_LGUI);
+      tap_code(KC_I);
+      unregister_code(KC_LGUI);
     }
 
     SEQ_ONE_KEY(KC_S) {
